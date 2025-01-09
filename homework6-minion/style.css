@@ -1,0 +1,40 @@
+.container{
+    margin: auto;
+    background-color: rgb(77, 73, 214);
+    font-size: 0;
+    width: 960px;
+}
+
+.header{
+    font-size: 20px;
+    text-align: center;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.box{
+    display: inline-block;
+    background-color: white;
+    width: 200px;
+    height: 250px;
+    border: 2px solid rgb(11, 11, 11);
+    font-size: 14px;
+    margin: 20px;
+}
+
+.inner-box{
+    margin: 10px;
+    text-align: center;
+}
+
+.inner-box img{
+    height: 100px;
+}
+
+.inner-box button{
+    width: 115px;
+    height: 30px;
+    background-color: blueviolet;
+}
