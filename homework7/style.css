@@ -1,0 +1,105 @@
+
+.container{
+    width: 1440px;
+    margin: 0 auto;
+    padding-top: 170px;
+}
+
+.inner{
+    display: inline-block;
+    vertical-align: top;
+}
+.inner-categories{
+    width: 370px;
+    margin-bottom: 350px;
+}
+.title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 800; 
+    line-height: 16px;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+.plants-list li
+{
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 30px;
+    padding-left: 40px;
+}
+
+.plants{
+    max-width: 900px;
+}
+.card-item{
+    display: inline-block;
+    margin: 0 30px 70px 0;
+}
+.card-image{
+    width: 258px;
+    height: 300px;
+    background-color: #fbfbfB;
+}
+.card-title{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 16px;
+    margin-bottom: 6px;
+    margin-top: 12px;
+}
+.card-price{
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    font-weight: 700; 
+    line-height: 16px;
+    color:#46A358;
+}
+
+.banner{
+    width: 370px;
+    vertical-align: bottom;
+}
+
+.pagination{
+    width: 1230px;
+    text-align: right;
+    
+}
+.pagination-list li{
+    display: inline-block;
+    padding: 20px;
+    border: 1px solid black;
+    margin-right: 10px;
+}
+
+ul.menu li{
+    display: inline-block; 
+    margin-right: 40px;
+}
+a{
+    color: black;
+}
+
+.nav{
+    display: inline-block;
+
+}
+
+.btn-box{
+    display: inline-block;
+    margin-left: 350px;
+}
+.btn-box a{
+    margin-right: 10px;
+}
+.header{
+    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    font-weight: 400; 
+    line-height: 16px;
+    margin-bottom: 40px;
+}
