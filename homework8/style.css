@@ -1,12 +1,19 @@
 .container{
-    width: 1200px;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 70px 0 70px 0;
+}
+
+.blog-posts{
+    padding: 70px 0;
 }
 
 .section{
     display: flex;
     margin-bottom: 140px;
+}
+
+.blog-section{
+    column-gap: 45px;
 }
 
 .item{
@@ -59,9 +66,9 @@
     text-align: center;
 }
 
-.blog__image-item{
-    width: 270px;
-    height: 190px;
+.blog-item{
+    flex-grow: 1; 
+    flex-basis: 0; 
 }
 
 .blog__date-item{
