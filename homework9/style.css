@@ -10,7 +10,7 @@
 .header {
     display: flex;
     justify-content: space-between;
-    padding-bottom: 30px;
+    margin-bottom: 30px;
     font-family: 'Roboto', sans-serif;
     font-size: 15px;
     font-weight: 400; 
@@ -59,9 +59,6 @@ a {
 .title-text-item { 
     padding: 6px 0;
 }
-.item {
-    position: relative;
-}
 .icons {
     display: none;
     column-gap: 27px;
@@ -71,6 +68,9 @@ a {
 }
 .item:hover .icons {
     display: flex;
+}
+.item {
+    position: relative;
 }
 .item:hover::before {
     content: '';
@@ -101,6 +101,7 @@ a {
 .nav-box-li a:hover::after {
     content: '';
     height: 1px;
+    bottom: -7px;
     width: 100%;
     background-color: #46A358;
     display: block;
