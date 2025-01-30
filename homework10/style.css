@@ -1,0 +1,136 @@
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.main-container {
+    padding-top: 30px;
+    color: #19191C;
+    background-color: #FFFFFF;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: "Encode Sans Expanded", serif;
+    font-size: 16px;
+    font-weight: 400; 
+    line-height: 20px; 
+}
+.header a {
+    color: #3D3D3D; /* Цвет для ссылок внутри .header */
+  }
+  
+  .nav-box-li a {
+    color: #3D3D3D; /* Цвет для ссылок внутри .nav-box-li */
+  }
+.nav {
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-bottom: 1px solid #F5F5F580;
+}
+ button {
+    display: flex; /* Делает кнопку флекс-контейнером */
+    align-items: center; /* Центрирует содержимое по вертикали */
+    justify-content: center;
+    border-radius: 6px;
+    padding: 8px 17px 8px 20px;
+    font-family: "Encode Sans Expanded", serif;
+    font-size: 16px;
+    font-weight: 500; 
+    line-height: 20px; 
+    background-color: #46A358;
+    color: white;
+}
+.button {
+    margin-top: 45px;
+}
+.nav-box {
+    display: flex;
+    column-gap: 47px;
+    color:black;
+    
+}
+
+.inner-nav-box-li {
+    padding: 7px 80px 7px 15px;
+}
+
+.nav-box-li {
+    position: relative;
+}
+
+
+.inner-nav-box {
+    background-color: #EDF6EE;
+}
+
+.plant-nav-box {
+    display: none;
+    position: absolute;
+    left: -50px; 
+    padding-top: 15px;
+    background-clip: content-box;
+}
+
+.nav-box-li:hover .plant-nav-box{
+    display: block;
+}
+
+.inner-priming-nav-li{
+    position: relative;
+}
+
+.priming-nav-box {
+    display: none;
+    position: absolute; 
+}
+
+.inner-priming-nav-li:hover .priming-nav-box {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    /* gap: 10px; */
+    top: 0;
+    left: 180px;
+}
+
+.inner-priming-nav-li:hover {
+    background-color: #1A712A;
+    color: white;
+}
+
+.inner-priming-nav-li:hover .nav-box-link {
+    color: white;
+    font-size: 16px;
+    font-weight: 700; 
+}
+
+.main {
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.images {
+    display: flex;
+    align-items: flex-end; 
+} 
+.img {
+    height: 100%;
+}
+.description{
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 500; 
+    line-height: 16px; 
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    font-weight: 400; 
+    line-height: 24px; 
+}
+p {
+    margin:7px;
+}
