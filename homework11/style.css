@@ -37,6 +37,7 @@
      border: 1px solid #F5F5F580;
      flex-grow: 1;  
      flex-basis: 0;
+     padding: 12px;
 }
 
 .button {
@@ -159,6 +160,7 @@
 
 .div-rights{
     border-top: 1px solid #F5F5F580;
+    margin-top: 7px;
 }
 
 .background-image {

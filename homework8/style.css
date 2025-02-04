@@ -65,7 +65,9 @@
 .header{
     text-align: center;
 }
-
+.header-blog {
+    margin-top: 70px;
+}
 .blog-item{
     flex-grow: 1; 
     flex-basis: 0; 
