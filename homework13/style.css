@@ -16,6 +16,7 @@
     background-color: lightgrey;
     border-radius: 20px;
     position: relative;
+    /* transition: background-color .1s cubic-bezier(.32,.08,.24,1); */
   }
   .custom-checkbox::before {
     content: "";
@@ -36,6 +37,7 @@
 
   .class-checkbox:checked ~ .custom-checkbox::before {
     display: block;
+    left: 22px;
     animation-name: box;
     animation-duration: 0.1s;
     animation-timing-function: linear;
